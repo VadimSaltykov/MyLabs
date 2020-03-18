@@ -10,7 +10,8 @@ public class App {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("applicationContext.xml");
         // Считываем бин (объект)
         HelloBean hb = ctx.getBean("firstBean", HelloBean.class);
-        // Печатаем объект в консоль 
+        // Печатаем объект в консоль //
+        // s
         System.out.println(hb);
 	}
 
