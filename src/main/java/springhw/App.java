@@ -14,7 +14,6 @@ public class App {
         Printer printer = ctx.getBean("printer", Printer.class);
 
         // Печатаем объект в консоль
-        //System.out.println(hb);
         printer.print(hb);
 	}
 
