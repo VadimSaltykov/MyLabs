@@ -15,6 +15,8 @@ public class App {
 
         // Печатаем объект в консоль
         printer.print(hb);
+        // Закрываем контекст приложения
+        ctx.close();
 	}
 
 }
